@@ -1,0 +1,51 @@
+.body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.central{
+    width: 20rem;
+    height: 40rem;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+
+.central__qr{
+    width: 13rem;
+    height: 20rem;
+    margin: 1rem 1rem;
+    background-image: url(/qr-code-component-main/images/image-qr-code.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.central__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.central__texto_titulo{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+
+
+
+
+/* --color-white: hsl(0, 0%, 100%);
+--color-lightgray: hsl(212, 45%, 89%);
+--color-grayishblue: hsl(220, 15%, 55%);
+--color-darkblue: hsl(218, 44%, 22%); */
