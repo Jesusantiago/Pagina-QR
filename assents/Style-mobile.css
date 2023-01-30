@@ -7,25 +7,26 @@
 }
 
 .central{
-    width: 20rem;
-    height: 40rem;
+    width: 18rem;
+    height: 32rem;
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
 }
 
 
 .central__qr{
-    width: 13rem;
+    width: 20rem;
     height: 20rem;
-    margin: 1rem 1rem;
     background-image: url(/qr-code-component-main/images/image-qr-code.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    border-radius: 1rem;
 }
 
 .central__texto{
@@ -38,7 +39,13 @@
 .central__texto_titulo{
     font-size: 1.5rem;
     text-align: center;
+    font-weight: bolder;
+    
+}
 
+.central__texto_parrafo{
+    text-align: center;
+    font-weight: lighter;
 }
 
 
