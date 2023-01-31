@@ -22,7 +22,7 @@
 .central__qr{
     width: 20rem;
     height: 20rem;
-    background-image: url(/qr-code-component-main/images/image-qr-code.png);
+    background-image: url(//qr-code-component-main/images/image-qr-code.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
